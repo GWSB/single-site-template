@@ -1,0 +1,96 @@
+/* Navigation */
+.navbar {
+  margin: 0;
+}
+.navbar-default {
+  background-color: rgba(35, 35, 35, .5);
+  border-radius: 0;
+  border-style: none;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover  {
+  color: #fff;
+  font-size:20px;
+  transition: all 500ms;
+  font-size-adjust: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  font-size: 16px;
+  transition: all 500ms;
+  font-size-adjust: 16px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: rgba(35, 35, 35, 0);
+  color: #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(35, 35, 35, 0);
+  color: #fff;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+
+}
+
+/* Hero */
+.hero {
+/*css for full size background image*/
+  background: url(../assets/great-western.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 85vh;
+  background-color: #319f2a;
+  color: #232323;
+}
+
+.hero .panel-default {
+  margin: 60px 0 30px;
+  background-color: rgba(35, 35, 35, .5);
+  border-style: none;
+}
+
+.hero .panel-header {
+  background-color: rgba(49, 159, 42, .6);
+  padding: 5px 0;
+  color: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(35, 35, 35, .5);
+}
+
+.hero .panel-body input {
+  width: 100%;
+  background-color: rgba(255, 255, 255, .9);
+  color: #fff;
+}
+
+.hero .hero-content {
+  margin: 60px 0;
+}
