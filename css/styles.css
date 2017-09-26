@@ -76,13 +76,18 @@
 }
 
 .hero .panel-header {
-  background-color: rgba(49, 159, 42, .6);
+  background-color: rgba(0, 0, 0, .6);
   padding: 5px 0;
   color: #fff;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-style: solid;
   border-bottom-color: rgba(35, 35, 35, .5);
+}
+
+.hero .panel-body {
+
+  padding: 15px 15px 0;
 }
 
 .hero .panel-body input {
@@ -93,4 +98,40 @@
 
 .hero .hero-content {
   margin: 60px 0;
+}
+
+/*BUTTONS AND UI*/
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+  outline: 0 none;
+}
+.btn-dark {
+  padding: 10px;
+  background-color: #319f2a;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  color: #fff;
+}
+
+.btn:focus,.btn:active {
+   outline-color: #fff !important;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
 }
